@@ -20,11 +20,11 @@ const props = defineProps({
   },
   color: {
     type: String,
-    default: 'grey'
+    default: '#F0F2F5'
   },
   foregroundColor: {
     type: String,
-    default: 'red'
+    default: '#A36EB8'
   }
 })
 
@@ -59,11 +59,7 @@ const borderStyle = computed(() => ({
   height: loaderSize.value
 }))
 
-onMounted(() => {
-//   setTimeout(() => {
-    // setLoading(true) 
-//   }, 2000)
-})
+
 </script>
 
 <style scoped>

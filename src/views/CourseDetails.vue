@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full grid md:grid-cols-3 grid-cols-1 md:p-8 p-4">
-    <div class="md:col-span-2 md:p-5 flex flex-col gap-5">
+  <div class="w-full grid md:grid-cols-3 grid-cols-1 md:p-8 pb-20 p-4">
+    <div class="md:col-span-2 h-auto pb-3 md:p-5 flex flex-col gap-5">
       <div class="flex flex-col gap-2">
         <h1 class="capitalize text-2xl font-[600]">{{ courseDetail.label }}</h1>
         <div class="flex gap-2 items-center font-[600]">
@@ -15,7 +15,7 @@
       </div>
       <div class="flex flex-col gap-2">
         <h3 class="font-[600] text-[1.2rem]">Course Content</h3>
-        <div class="flex gap-1">
+        <div class="flex gap-1 md:text-md text-xs">
           <p>{{ courseDetail?.courseContent?.length }} Modules</p>
           •
           <p>{{ selectedCourse }} Lessons</p>

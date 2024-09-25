@@ -3,15 +3,15 @@
     v-for="(modules, index) in courseDetail?.courseContent"
     :class="showLesson == index ? 'slide_down' : 'slide_up'"
   >
-    <div @click="toggleShowLesson(index)" class="flex items-center gap-1">
+    <div @click="toggleShowLesson(index)" class="flex md:text-md text-xs items-center gap-1">
       <p>Module {{ modules.module }}</p>
-      -
-      <p>{{ courseDetail.level }}</p>
+      
+      <p class="sm:block hidden"> - {{ courseDetail.level }}</p>
       -
       <p>{{ modules.title }}</p>
     </div>
 
-    <div class="pl-5" v-if="showLesson == index " v-for="lesson in modules.lessons">
+    <div class="pl-5 md:text-md text-xs" v-if="showLesson == index " v-for="lesson in modules.lessons">
       {{ lesson.lessonTitle }}
     </div>
   </div>

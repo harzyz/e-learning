@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="flex gap-2 items-center">
-      <button class="btn w-full">Buy Now</button>
+      <button @click="showModal = true" class="btn w-full">Buy Now</button>
       <div class="shadow-lg p-2 rounded-md"><HeartIcon /></div>
     </div>
     <div class="border-t-[1px] border-[grey]"></div>
@@ -26,16 +26,29 @@
         </li>
       </ul>
     </div>
+
+    <Modal :isOpen="showModal" @closeModal="closeModal()">
+      <div>
+        <h3 class="text-3xl text-center text-priText font-[600]">Payment Succesfull</h3>
+        <img src="/src/assets/success.gif" alt="">
+      </div>
+    </Modal>
   </div>
 </template>
 
 <script setup>
-import ArticlesIcon from '@/components/icons/ArticlesIcon.vue'
 import HeartIcon from '@/components/icons/HeartIcon.vue'
 import { ref } from 'vue'
+import Modal from './Modal.vue';
 const props = defineProps({
   courseDetail: Object
 })
+
+const showModal = ref(false);
+
+const closeModal = (close) => {
+  showModal.value = close
+}
 
 const courseIncludes = ref([
   {
