@@ -1,33 +1,7 @@
 <template>
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
     <path
-      d="M1.66602 18.332H18.3327"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M8.125 3.33464V18.3346H11.875V3.33464C11.875 2.41797 11.5 1.66797 10.375 1.66797H9.625C8.5 1.66797 8.125 2.41797 8.125 3.33464Z"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M2.5 8.33464V18.3346H5.83333V8.33464C5.83333 7.41797 5.5 6.66797 4.5 6.66797H3.83333C2.83333 6.66797 2.5 7.41797 2.5 8.33464Z"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M14.166 12.4987V18.332H17.4993V12.4987C17.4993 11.582 17.166 10.832 16.166 10.832H15.4993C14.4993 10.832 14.166 11.582 14.166 12.4987Z"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      d="M12 1C7.03 1 3 5.03 3 10v6a3 3 0 003 3h1v-7H5a5 5 0 015-5h2a5 5 0 015 5h-2v7h1a3 3 0 003-3v-6c0-4.97-4.03-9-9-9zm0 2a7 7 0 017 7v6a1 1 0 01-1 1h-1v-9a7 7 0 00-14 0v9H5a1 1 0 01-1-1v-6a7 7 0 017-7zm1 14v-2H9v2h4zm-2-4v-2h2v2h-2zm0 0v2h-2v-2h2z"
     />
   </svg>
 </template>
