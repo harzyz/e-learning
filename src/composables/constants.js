@@ -1,4 +1,7 @@
 import CategoryIcon from "@/components/icons/CategoryIcon.vue";
+import ChartIcon from "@/components/icons/ChartIcon.vue";
+import CourseStackIcon from "@/components/icons/CourseStackIcon.vue";
+import RoadmapIcon from "@/components/icons/RoadmapIcon.vue";
 import { ref } from "vue";
 
 export const sidebarItems = ref([
@@ -8,24 +11,24 @@ export const sidebarItems = ref([
     url: '/',
     imgUrl: CategoryIcon
   },
-  // {
-  //   id: 2,
-  //   label: 'Growth',
-  //   url: '/courses',
-  //   imgUrl: '/src/assets/coursestack.svg'
-  // },
-  // {
-  //   id: 3,
-  //   label: 'Growth',
-  //   url: '/courses',
-  //   imgUrl: '/src/assets/roadmap.svg'
-  // },
-  // {
-  //   id: 4,
-  //   label: 'Growth',
-  //   url: '/courses',
-  //   imgUrl: '/src/assets/chart.svg'
-  // }
+  {
+    id: 2,
+    label: 'Growth',
+    url: '/courses',
+    imgUrl: CourseStackIcon
+  },
+  {
+    id: 3,
+    label: 'Growth',
+    url: '/courses',
+    imgUrl: RoadmapIcon
+  },
+  {
+    id: 4,
+    label: 'Growth',
+    url: '/courses',
+    imgUrl: ChartIcon
+  }
 ])
 export const Courses = ref([
   {

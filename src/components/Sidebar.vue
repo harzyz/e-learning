@@ -8,8 +8,7 @@
           class="debugger text-white flex items-center justify-center h-[100px]"
           :to="sidebarItem.url"
         >
-        <component  :is="sidebarItem.imgUrl" />
-          <!-- <img :src="sidebarItem.imgUrl" alt="" /> -->
+          <component :is="sidebarItem.imgUrl" />
         </RouterLink>
       </li>
     </ul>
