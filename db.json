@@ -1,0 +1,420 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "label": "Web Development",
+      "mentor": "John Doe",
+      "description": "This course is designed to provide a comprehensive understanding of web development fundamentals. You'll learn to create responsive websites using HTML, CSS, and JavaScript. By the end of this course, you will be able to develop full-fledged web applications, understand the best coding practices, and explore advanced topics like browser storage and asynchronous programming.",
+      "imgUrl": "/src/assets/course2.jpg",
+      "duration": "12 weeks",
+      "level": "Beginner",
+      "rating": 4.8,
+      "price": 100,
+      "oldprice": 800,
+      "enrolledStudents": 1500,
+      "category": "Development",
+      "releaseDate": "2024-01-15",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Introduction to Web Development",
+          "lessons": [
+            {
+              "lessonTitle": "What is Web Development?",
+              "description": "Introduction to the basics of web development and how the web works."
+            },
+            {
+              "lessonTitle": "HTML Basics",
+              "description": "Learn the structure of a webpage using HTML."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "CSS and Styling",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to CSS",
+              "description": "Learn how to style HTML elements using CSS."
+            },
+            {
+              "lessonTitle": "Responsive Design",
+              "description": "Understand how to make your website responsive for all screen sizes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Data Science",
+      "mentor": "Jane Smith",
+      "description": "This course will guide you through the essentials of data science, helping you grasp key concepts like data analysis, visualization, and machine learning. You’ll learn Python, the most popular programming language in the data science world, and apply it to real-world datasets to draw meaningful insights. This course is ideal for anyone looking to begin or advance their career in data science.",
+      "imgUrl": "/src/assets/course2.jpg",
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "rating": 4.7,
+      "price": 200,
+      "oldprice": 950,
+      "enrolledStudents": 1200,
+      "category": "Data Science",
+      "releaseDate": "2024-02-01",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Introduction to Data Science",
+          "lessons": [
+            {
+              "lessonTitle": "What is Data Science?",
+              "description": "An overview of the field of data science, its significance, and applications."
+            },
+            {
+              "lessonTitle": "Python for Data Science",
+              "description": "Learn the basics of Python programming and its use in data analysis."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Data Visualization",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to Data Visualization",
+              "description": "Understand the importance of data visualization and the tools available for creating visualizations."
+            },
+            {
+              "lessonTitle": "Creating Charts with Matplotlib",
+              "description": "Learn how to create bar charts, line graphs, and more using Python's Matplotlib library."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Digital Marketing",
+      "mentor": "David Lee",
+      "description": "In this course, you will explore various digital marketing strategies including SEO, content marketing, social media management, and email marketing. By the end of this course, you'll have the skills needed to run successful digital marketing campaigns and improve your brand's online presence, gaining a competitive edge in today's digital landscape.",
+      "imgUrl": "/src/assets/course2.jpg",
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "rating": 4.6,
+      "price": 90,
+      "oldprice": 500,
+      "enrolledStudents": 1000,
+      "category": "Marketing",
+      "releaseDate": "2023-11-20",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "SEO and Content Marketing",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to SEO",
+              "description": "Learn the basics of search engine optimization and why it's important."
+            },
+            {
+              "lessonTitle": "Creating Effective Content",
+              "description": "Discover how to create content that engages and converts."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Social Media Marketing",
+          "lessons": [
+            {
+              "lessonTitle": "Managing Social Media Campaigns",
+              "description": "Explore how to manage campaigns across social media platforms."
+            },
+            {
+              "lessonTitle": "Measuring Campaign Success",
+              "description": "Learn how to analyze the performance of social media campaigns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "UI/UX Design",
+      "mentor": "Sara Williams",
+      "description": "This course covers the core principles of user interface (UI) and user experience (UX) design. You'll learn to design intuitive interfaces and create exceptional experiences for web and mobile applications. The course focuses on research, wireframing, prototyping, and usability testing to ensure the final product meets user needs.",
+      "imgUrl": "/src/assets/ui-ux.jpg",
+      "duration": "6 weeks",
+      "level": "Intermediate",
+      "rating": 4.9,
+      "price": 150,
+      "oldprice": 950,
+      "enrolledStudents": 850,
+      "category": "Design",
+      "releaseDate": "2024-03-10",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Fundamentals of UI/UX Design",
+          "lessons": [
+            {
+              "lessonTitle": "Understanding User Needs",
+              "description": "Learn how to conduct research to understand user needs and behaviors."
+            },
+            {
+              "lessonTitle": "Wireframing and Prototyping",
+              "description": "Master the tools and techniques for creating wireframes and prototypes."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Usability Testing",
+          "lessons": [
+            {
+              "lessonTitle": "Testing for Usability",
+              "description": "Understand the importance of usability testing and how to perform it."
+            },
+            {
+              "lessonTitle": "Iterating on Feedback",
+              "description": "Learn how to refine designs based on user feedback."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Python Programming",
+      "mentor": "Michael Chen",
+      "description": "This course provides a deep dive into Python programming, covering everything from basic syntax to more advanced topics like object-oriented programming and file handling. Ideal for anyone looking to start or advance their programming skills.",
+      "imgUrl": "/src/assets/course2.jpg",
+      "duration": "10 weeks",
+      "level": "Beginner",
+      "rating": 4.7,
+      "price": 120,
+      "oldprice": 850,
+      "enrolledStudents": 2000,
+      "category": "Programming",
+      "releaseDate": "2023-12-01",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Python Basics",
+          "lessons": [
+            {
+              "lessonTitle": "Syntax and Variables",
+              "description": "Introduction to Python syntax and variable declaration."
+            },
+            {
+              "lessonTitle": "Data Types",
+              "description": "Understanding different data types in Python."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Control Structures",
+          "lessons": [
+            {
+              "lessonTitle": "Conditional Statements",
+              "description": "Using if, else, and elif to control the flow of a program."
+            },
+            {
+              "lessonTitle": "Loops",
+              "description": "Mastering for and while loops in Python."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Machine Learning",
+      "mentor": "Alice Green",
+      "description": "This course offers a hands-on introduction to machine learning, covering algorithms such as linear regression, decision trees, and neural networks. By the end of this course, you'll be able to apply machine learning techniques to real-world problems.",
+      "imgUrl": "/src/assets/machine-learning.jpg",
+      "duration": "12 weeks",
+      "level": "Advanced",
+      "rating": 4.9,
+      "price": 300,
+      "oldprice": 1200,
+      "enrolledStudents": 750,
+      "category": "Data Science",
+      "releaseDate": "2024-01-20",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Introduction to Machine Learning",
+          "lessons": [
+            {
+              "lessonTitle": "What is Machine Learning?",
+              "description": "Understanding the basics of machine learning and its applications."
+            },
+            {
+              "lessonTitle": "Supervised vs Unsupervised Learning",
+              "description": "Learn the difference between these two core techniques."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Linear Regression",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to Linear Regression",
+              "description": "Understand how to use linear regression to model relationships between variables."
+            },
+            {
+              "lessonTitle": "Building a Linear Model",
+              "description": "Hands-on experience with building and evaluating linear models."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Advanced CSS Techniques",
+      "mentor": "John Doe",
+      "description": "This course dives deep into advanced CSS techniques, including Flexbox, Grid, and animations. By the end of this course, you'll be able to create responsive and visually stunning web layouts that enhance user experience.",
+      "imgUrl": "/src/assets/advanced-css.jpg",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "rating": 4.8,
+      "price": 250,
+      "oldprice": 1500,
+      "enrolledStudents": 500,
+      "category": "Web Development",
+      "releaseDate": "2024-03-15",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "CSS Fundamentals",
+          "lessons": [
+            {
+              "lessonTitle": "Understanding the Box Model",
+              "description": "Learn how the box model affects layout and design in CSS."
+            },
+            {
+              "lessonTitle": "Selectors and Specificity",
+              "description": "Deep dive into CSS selectors and how specificity works."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Responsive Design with Flexbox",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to Flexbox",
+              "description": "Understand the Flexbox layout model and how it simplifies responsive design."
+            },
+            {
+              "lessonTitle": "Creating Flexbox Layouts",
+              "description": "Hands-on exercises to create complex layouts using Flexbox."
+            }
+          ]
+        },
+        {
+          "module": 3,
+          "title": "CSS Grid Layout",
+          "lessons": [
+            {
+              "lessonTitle": "Getting Started with CSS Grid",
+              "description": "Learn the fundamentals of CSS Grid and its properties."
+            },
+            {
+              "lessonTitle": "Building a Grid Layout",
+              "description": "Practical examples to design grid-based layouts for modern web applications."
+            }
+          ]
+        },
+        {
+          "module": 4,
+          "title": "CSS Animations and Transitions",
+          "lessons": [
+            {
+              "lessonTitle": "Introduction to CSS Animations",
+              "description": "Explore how to create smooth animations using CSS keyframes."
+            },
+            {
+              "lessonTitle": "Using Transitions Effectively",
+              "description": "Learn how to implement transitions for better user interaction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Introduction to Cybersecurity",
+      "mentor": "Sarah Smith",
+      "description": "This course provides a comprehensive introduction to the field of cybersecurity. You'll learn about the fundamental concepts, common threats, and defensive strategies. By the end of this course, you'll be equipped to understand and address various security challenges faced by organizations.",
+      "imgUrl": "/src/assets/cybersecurity.jpg",
+      "duration": "10 weeks",
+      "level": "Beginner",
+      "rating": 4.7,
+      "price": 280,
+      "oldprice": 1400,
+      "enrolledStudents": 600,
+      "category": "Information Technology",
+      "releaseDate": "2024-04-01",
+      "courseContent": [
+        {
+          "module": 1,
+          "title": "Introduction to Cybersecurity",
+          "lessons": [
+            {
+              "lessonTitle": "What is Cybersecurity?",
+              "description": "An overview of cybersecurity and its importance in today's digital world."
+            },
+            {
+              "lessonTitle": "Understanding Cyber Threats",
+              "description": "Explore the different types of cyber threats and their impact on organizations."
+            }
+          ]
+        },
+        {
+          "module": 2,
+          "title": "Network Security Fundamentals",
+          "lessons": [
+            {
+              "lessonTitle": "Basics of Network Security",
+              "description": "Learn the foundational concepts of network security, including firewalls and VPNs."
+            },
+            {
+              "lessonTitle": "Securing Wireless Networks",
+              "description": "Understand the vulnerabilities in wireless networks and how to secure them."
+            }
+          ]
+        },
+        {
+          "module": 3,
+          "title": "Cybersecurity Tools and Technologies",
+          "lessons": [
+            {
+              "lessonTitle": "Overview of Security Tools",
+              "description": "Introduction to various tools used in cybersecurity for monitoring and defending."
+            },
+            {
+              "lessonTitle": "Using Antivirus and Anti-malware",
+              "description": "Learn how to effectively use antivirus and anti-malware tools to protect systems."
+            }
+          ]
+        },
+        {
+          "module": 4,
+          "title": "Incident Response and Management",
+          "lessons": [
+            {
+              "lessonTitle": "Understanding Incident Response",
+              "description": "Explore the steps involved in responding to a cybersecurity incident."
+            },
+            {
+              "lessonTitle": "Developing an Incident Response Plan",
+              "description": "Learn how to create and implement an effective incident response plan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
